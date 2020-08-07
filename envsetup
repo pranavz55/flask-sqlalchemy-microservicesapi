@@ -1,0 +1,8 @@
+#Setting up virtual environment in windows  
+  
+pip install virtualenv  
+pip install virtualenvwrapper-win  
+mkvirtualenv env #here env is the name of environment you want to create  
+setprojectdir . #this is optional to set directory with particular environment  
+workon env  #env is environment name(It directly opens your env directory)  
+deactivate #for removing environment  
